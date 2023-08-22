@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- setting the encoding system -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- setting wensite size according to the user's device -->
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <!-- setting a title for the website -->
+        <title>
+            HPQ project
+        </title>
+        <!-- creating a link to the formating sheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="main">
+            <!-- creating a header -->
+            <header class="header">
+                <a href="#" class="logo">Survey.</a>
+                <!-- creating the navigation bar -->
+                <nav class="navbar">
+                    <!-- creating buttons on the navigation part-->
+                    
+                    <a href="#" class="active">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </header>
+
+            <div class="container">
+                <section class="quiz-section">
+                    <!-- creating the question box part -->
+                    <div class="quiz-box">
+                        <h1> HPQ survey</h1>
+                        <div class="quiz-header">
+                            Survey website
+                        </div>
+                        <span class="header-score">Score 0 / 5</span>
+                        
+                        <h2 class="question-text"> what blablabla?</h2>
+                        <div class="option-list">
+                        </div>
+                        <div class="quiz-footer">
+                            <span class="question-total">1 of 5 Questions</span>
+                            <button class="next-btn">Next</button>
+                        </div>
+                        
+                    </div>
+                </section>
+                <!-- creating the home page content -->
+                <section class="home">
+                    <div class="home-content">
+                        <h1>
+                            Survey Website
+                        </h1>
+                        <p>
+                            1. The survey is annonymous
+                            2. Please answer honestly
+                        </p>
+                        <button class="start-btn">Start Survey</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- creating the pop up window -->
+        <div class="popup-info">
+            <h2>Quiz Guide</h2>
+            <span class="info">
+                1. The survey is annonymous
+            </span>
+            <span class="info">
+                2. Please answer honestly
+            </span>
+            <span class="info">
+                3. Lorem, ipsum dolor sit amet consectetur adipisicing
+            </span>
+
+            <div class="btn-group">
+                <button class="info-btn exit-btn">Exit</button>
+                <a href="#" class="info-btn continue-btn">Continue</a>
+            </div>
+        </div>
+
+        <!-- creating a link to the back-end -->
+        <script src="question.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
